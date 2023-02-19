@@ -46,6 +46,4 @@ Did you even [win an immunity, Jean Robert](https://www.youtube.com/watch?v=OZoV
 <br/>
 <br/>
 
-<div>
-    <img src="./assets/ball.jpg?raw=true">
-</div>
+!['dave_ball'](./assets/ball.jpg)
