@@ -23,4 +23,4 @@ Have **fun!**
 
 [page1.md](/pages/page1.md)
 
-<include src="./binding/pagination/page_nav.html"/>
+<include src="./binding/pagination/page_nav.html"></include>
