@@ -8,9 +8,13 @@
         float: left;
         padding: 8px 16px;
         text-decoration: none;
-        }
+    }
     
-    .pagination:hover {
+    .pag_but {
+        color: blue;
+    }
+
+    .pag_but:hover {
         color: red;
     }
 </style>
@@ -20,9 +24,9 @@ Have **fun!**
 [page1.md](/pages/page1.md)
 
 <div class="paginationBar">
-    <button class="previous">Previous</button>
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button class="next">Next</button>
+    <button class="page_but previous">Previous</button>
+    <button class="pag_but">1</button>
+    <button class="pag_but">2</button>
+    <button class="pag_but">3</button>
+    <button class="pag_but next">Next</button>
 </div>
