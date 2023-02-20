@@ -2,11 +2,13 @@
 
 function Slay() {
   console.log('worked');
-  return React.createElement(
-    'button'
+  return (
+    <p>
+        tada
+    </p>
   );
 }
 
-const rootNode = document.getElementById('root');
+const rootNode = document.getElementById('pagination-wrapper');
 const root = ReactDOM.createRoot(rootNode);
 root.render(React.createElement(Slay));
