@@ -1,6 +1,6 @@
 'use strict';
 
-function Slay() {
+function PageNavigation() {
   console.log('worked');
   return (
     <p>
@@ -11,4 +11,5 @@ function Slay() {
 
 const rootNode = document.getElementById('pagination-wrapper');
 const root = ReactDOM.createRoot(rootNode);
-root.render(React.createElement(Slay));
+const pageNavElement = <PageNavigation/>;
+root.render(pageNavElement);
