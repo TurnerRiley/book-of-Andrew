@@ -19,8 +19,18 @@
     }
 </style>
 
+<script>
+    console.log('aaa');
+</script>
+
 Have **fun!**
 
 [page1.md](/pages/page1.md)
 
-<include src="./binding/pagination/page_nav.html"></include>
+<div class="paginationBar">
+    <button class="pag_but previous">Previous</button>
+    <button class="pag_but">1</button>
+    <button class="pag_but">2</button>
+    <button class="pag_but">3</button>
+    <button class="pag_but next">Next</button>
+</div>
