@@ -15,5 +15,5 @@ class PageNavigation extends React.Component {
 
 const rootNode = document.getElementById('pagination-wrapper');
 const root = ReactDOM.createRoot(rootNode);
-const pageNavElement = <PageNavigation/>;
+const pageNavElement = React.createElement(PageNavigation);
 root.render(pageNavElement);
