@@ -3,7 +3,9 @@ import PageNavigation from "./PageNavigation";
 
 function Slay() {
   console.log('worked');
-  return PageNavigation;
+  return React.createElement(
+    PageNavigation
+  );
 }
 
 const rootNode = document.getElementById('pagination-wrapper');
