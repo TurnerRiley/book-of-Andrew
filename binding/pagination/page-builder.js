@@ -1,10 +1,9 @@
 'use strict';
+import PageNavigation from "./PageNavigation";
 
 function Slay() {
   console.log('worked');
-  return React.createElement(
-    'PageNavigation'
-  );
+  return PageNavigation;
 }
 
 const rootNode = document.getElementById('pagination-wrapper');
