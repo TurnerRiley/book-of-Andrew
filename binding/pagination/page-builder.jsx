@@ -1,12 +1,15 @@
 'use strict';
 
-function PageNavigation() {
-  console.log('worked');
-  return (
-    <p>
-        tada
-    </p>
-  );
+class PageNavigation extends React.Component {
+
+  render() {
+    console.log('worked');
+    return (
+      <p>
+          tada
+      </p>
+    );
+  }
 }
 
 const rootNode = document.getElementById('pagination-wrapper');
