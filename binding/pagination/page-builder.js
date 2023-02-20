@@ -3,7 +3,7 @@
 function Slay() {
   console.log('worked');
   return React.createElement(
-    'button'
+    'PageNavigation'
   );
 }
 
